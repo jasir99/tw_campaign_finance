@@ -5,7 +5,7 @@ jobs:
       - name: Run dbt
         plugin: dbt@v1
         command: dbt seed && dbt run
-  - name: "run-dbt"
+  - name: "teardown"
     type: "cleanup"
     steps:
       - name: Run teardown
