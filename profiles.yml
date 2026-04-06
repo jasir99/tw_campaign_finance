@@ -1,11 +1,9 @@
 tw_campaign_finance:
-
+  target: dev
   outputs:
     dev:
       type: duckdb
-      path: tw_campaign_finance.duckdb
-      extensions:
-        - httpfs
-        - parquet
-
-  target: dev
+      path: >-
+        C:\Users\User1582\rosetta-dbt-studio-projects\tw_campaign_finance\tw_campaign_finance.duckdb
+      schema: main
+      threads: 4
