@@ -6,4 +6,4 @@ tw_campaign_finance:
       path: >-
         C:\Users\User1582\rosetta-dbt-studio-projects\tw_campaign_finance\tw_campaign_finance.duckdb
       schema: main
-      threads: 4
+      threads: 4 asdsa
